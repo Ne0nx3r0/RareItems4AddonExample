@@ -13,8 +13,8 @@ public class RareItems4AddonExample extends JavaPlugin{
 
         if(ri4 != null){
             this.api = ri4.getAPI();
-        }
 
-        api.addItemProperty(new ExampleItemProperty(this));
+            api.addItemProperty(new ExampleItemProperty(this));
+        }
     }
 }
