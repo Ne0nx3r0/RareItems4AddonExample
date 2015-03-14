@@ -1,0 +1,7 @@
+name: RareItems4AddonExample
+main: com.example.RareItems4AddonExample
+version: '4.0.1a'
+load: STARTUP
+database: false
+depend: [RareItems4]
+description: Rare Items 4 addon example
